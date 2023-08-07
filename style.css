@@ -10,3 +10,82 @@ body {
 }
 
 /* Add styles here! */
+:root {
+  --primary-green: hsl(160deg, 100%, 30%);
+  --secondary-gold-light: hsl(45deg, 100%, 50%); /* lighter */
+  --secondary-gold-dark: hsl(45deg, 100%, 40%); /* darker */
+  --grays-black: hsl(0deg, 0%, 0%);
+  --grays-10: hsl(0deg, 0%, 10%); /* very dark */
+  --grays-30: hsl(0deg, 0%, 30%); /* dark */
+  --grays-40: hsl(0deg, 0%, 40%); /* medium */
+  --grays-60: hsl(0deg, 0%, 60%); /* light */
+  --grays-white: hsl(0deg, 0%, 100%);
+}
+
+
+.max-width-wrapper {
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  border-bottom: 8px solid var(--grays-60);
+}
+
+.intro-chunk {
+  margin: 96px 24px 64px;
+}
+
+.intro-chunk p {
+  max-width: 415px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  
+}
+
+.intro-chunk strong {
+  font-weight: 800;
+  color: var(--primary-green);
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 48px;
+}
+
+main {
+  background-color: var(--grays-40);
+  padding: 72px 0 66px;
+}
+
+.card {
+  background-color: var(--grays-white);
+  padding: 8px 24px;
+  border-bottom: 8px solid var(--grays-60);
+}
+
+.indented-heading {
+  background-color: var(--secondary-gold-light);
+  border-bottom: 8px solid var(--secondary-gold-dark);
+  padding: 16px 32px 16px 40px;
+  max-width: max-content;
+  width: auto;
+  margin: 0;
+  margin-left: -40px;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.card p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 16px 0;
+}
